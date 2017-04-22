@@ -101,19 +101,3 @@ var groud = {
 
     }
 
-
-var foo = groud.gStorage;
-foo.setVal('color', 'blue');
-foo.setVal('name', 'Ronald Mc Donald');
-foo.setVal('age', 28);
-//foo.setVal('setVal', 'Hmmm');
-
-// test and display length and contents of foo before clearVal() is used.
-console.log("length of gStorage obj = " + foo.length());
-//console.log(foo);
-//groud.gStorage.clearVal();
-// test and display length and contents of foo afer clearVal() is used.
-//console.log("length of gStorage obj = " + foo.length());
-//console.log(foo);
-// test key()
-console.log(foo.key(4));
