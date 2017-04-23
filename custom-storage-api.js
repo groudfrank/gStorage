@@ -50,7 +50,7 @@ var groud = {
             // checks if args passed is an integer that is not less than and not more than the range of keys.
             if((Number.isInteger(nth)) && (nth >= 0) && (nth <= Object.keys(groud.gStorage).length)) {
                 for(var prop in groud.gStorage){
-                    propList.push(prop);                                                                    // populate list with Object property names.
+                    propList.push(prop);                       // populate list with Object property names.
                 };
 
             }
