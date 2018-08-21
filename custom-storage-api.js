@@ -59,7 +59,7 @@ var groud = {
                 for(var prop in groud.gStorage){
                     propListErr.push(prop);
                 }
-                console.log("Error! The arugment is out is range. The range of Object keys are between 0 and " + propListErr.length);
+                console.log("Error! The arugment is out of range. The range of Object keys are between 0 and " + propListErr.length);
             }
             else {
                 console.log("Error! Value passed to function was not an integer.")
